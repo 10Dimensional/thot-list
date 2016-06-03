@@ -107,3 +107,7 @@ input[type="text"] {
 	border-radius: 25px;
 	width: 45px;
 }
+
+.buttons {
+	display: none;
+}
