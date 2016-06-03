@@ -1,0 +1,109 @@
+.add-btn {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background: #00b6ff;
+	text-align:  center;
+	color: #fff;
+	font-size: 35px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+.add-btn:hover {
+	background: #04a3e2;
+	cursor: pointer;
+}
+
+.recipeBox {
+    background: rgba(255,255,255,.6);
+    padding: 25px 25px 75px;
+    max-width: 70%;
+    margin: 25px auto;
+    position:  relative;
+    border-radius: 10px;
+    border: 1px dashed #000;
+    min-width: 650px;
+}
+
+body {
+	background: grey !important;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 45px;
+}
+
+h3 {
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+	border-bottom: 1px solid #00b6ff;
+}
+
+p {
+	font-family: Arial;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.container {
+	width: 85%;
+}
+
+.recipe {
+	background: rgba(255,255,255,.6);
+	padding: 5px 15px 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: 1px dashed #000;
+}
+
+input, textarea {
+	display: block;
+	margin: 0 auto;
+}
+
+.modal-content {
+	min-width: 650px;
+	padding: 25px;
+}
+
+.modal-content button, .modal-content input[type="submit"] {
+	margin: 10px auto 0;
+	display: block;
+}
+
+textarea {
+	width: 500px;
+	height: 200px;
+	margin-top: 20px;
+	border: 1px dashed #000;
+	font-family: Arial;
+	font-size: 14px;
+	font-style: italic;
+}
+
+input[type="text"] {
+	width: 500px;
+	border: 1px dashed #000;
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+}
+
+.btn {
+	padding: 10px;
+	width: 70px;
+}
+
+.btn-primary {
+	background: #00b6ff;
+}
+
+.recipe button {
+	margin-right: 10px;
+	border-radius: 25px;
+	width: 45px;
+}
